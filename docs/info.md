@@ -9,12 +9,18 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Q1, QB1 are latched by FF1
+Q2, QB2 are latched by FF2
+AND, OR, XOR are determined by boolean functions of LOGIC1 and LOGIC2
+BUFF is logically equal to LOGIC3
 
 ## How to test
 
-Explain how to use your project
+Use the CLK, FF1, FF2 to test the latches
+Use LOGIC1 and LOGIC2 to test the AND/OR/XOR gates
+Use LOGIC3 to test the BUFF output
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Connect a push-button to the CLK input; connect switches to LOGIC1,2,3
+Connect an LED bar output to all of the eight outputs in a parallel fashion
